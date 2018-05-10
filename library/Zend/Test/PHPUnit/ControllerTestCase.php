@@ -34,6 +34,8 @@ require_once 'Zend/Session.php';
 /** @see Zend_Registry */
 require_once 'Zend/Registry.php';
 
+use PHPUnit\Framework\TestCase as PHPUnit_Framework_TestCase;
+
 /**
  * Functional testing scaffold for MVC applications
  *
